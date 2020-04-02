@@ -4,10 +4,10 @@
     </div>
 </div><!-- end #body -->
 
-<!--<footer id="footer" role="contentinfo">-->
-<!--    &copy; --><?php //echo date('Y'); ?><!-- <a href="--><?php //$this->options->siteUrl(); ?><!--">--><?php //$this->options->title(); ?><!--</a>.-->
-<!--    --><?php //_e('由 <a href="http://www.seeking.run">Typecho</a> 强力驱动'); ?><!--.-->
-<!--</footer>-->
+<footer id="footer" role="contentinfo">
+    &copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>.
+    <?php _e(' 备案号: <a href="http://www.beian.miit.gov.cn">备案审批中...</a>'); ?>.
+</footer>
 
 <!-- end #footer -->
 

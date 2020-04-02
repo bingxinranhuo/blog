@@ -1,9 +1,9 @@
 <?php if(!defined('__TYPECHO_ADMIN__')) exit; ?>
 <div class="typecho-foot" role="contentinfo">
-<!--    <div class="copyright">-->
-<!--        <a href="http://seeking.run" class="i-logo-s">Typecho</a>-->
+    <div class="copyright">
+        <a href="http://www.beian.miit.gov.cn" class="i-logo-s">备案号:</a>
 <!--        <p>--><?php //_e('由 <a href="http://seeking.run">%s</a> 强力驱动, 版本 %s (%s)', $options->software, $prefixVersion, $suffixVersion); ?><!--</p>-->
-<!--    </div>-->
+    </div>
 <!--    <nav class="resource">-->
 <!--        <a href="http://docs.seeking.run">--><?php //_e('帮助文档'); ?><!--</a> &bull;-->
 <!--        <a href="http://forum.seeking.run">--><?php //_e('支持论坛'); ?><!--</a> &bull;-->
