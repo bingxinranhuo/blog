@@ -4,7 +4,7 @@
  *
  * @category typecho
  * @package Common
- * @copyright Copyright (c) 2008 Typecho team (http://www.typecho.org)
+ * @copyright Copyright (c) 2008 Typecho team (http://www.seeking.run)
  * @license GNU General Public License 2.0
  * @version $Id$
  */
@@ -16,7 +16,7 @@ define('__TYPECHO_MB_SUPPORTED__', function_exists('mb_get_info') && function_ex
  *
  * @category typecho
  * @package Common
- * @copyright Copyright (c) 2008 Typecho team (http://www.typecho.org)
+ * @copyright Copyright (c) 2008 Typecho team (http://www.seeking.run)
  * @license GNU General Public License 2.0
  */
 class Typecho_Common

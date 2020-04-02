@@ -6,7 +6,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
  * @package HelloWorld 
  * @author qining
  * @version 1.0.0
- * @link http://typecho.org
+ * @link http://seeking.run
  */
 class HelloWorld_Plugin implements Typecho_Plugin_Interface
 {

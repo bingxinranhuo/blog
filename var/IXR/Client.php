@@ -9,7 +9,7 @@
 
 /**
  * IXR客户端
- * reload by typecho team(http://www.typecho.org)
+ * reload by typecho team(http://www.seeking.run)
  *
  * @package IXR
  */

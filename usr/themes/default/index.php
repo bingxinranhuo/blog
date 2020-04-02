@@ -5,7 +5,7 @@
  * @package Typecho Replica Theme 
  * @author Typecho Team
  * @version 1.2
- * @link http://typecho.org
+ * @link http://seeking.run
  */
 
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
