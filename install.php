@@ -1,9 +1,9 @@
 <?php if (!file_exists(dirname(__FILE__) . '/config.inc.php')): ?>
 <?php
 /**
- * Typecho Blog Platform
+ * Blog Platform
  *
- * @copyright  Copyright (c) 2008 Typecho team (http://www.seeking.run)
+ * @copyright  Copyright (c) 2008 team (http://www.seeking.run)
  * @license    GNU General Public License 2.0
  * @version    $Id$
  */
@@ -203,7 +203,7 @@ Typecho_Cookie::set('__typecho_lang', $lang);
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head lang="zh-CN">
     <meta charset="<?php _e('UTF-8'); ?>" />
-	<title><?php _e('Typecho 安装程序'); ?></title>
+	<title><?php _e('安装程序'); ?></title>
     <link rel="stylesheet" type="text/css" href="admin/css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="admin/css/grid.css" />
     <link rel="stylesheet" type="text/css" href="admin/css/style.css" />
@@ -275,7 +275,7 @@ Typecho_Cookie::set('__typecho_lang', $lang);
                     </ul>
                     </div>
 
-                    <p><?php _e('希望您能尽情享用 Typecho 带来的乐趣!'); ?></p>
+                    <p><?php _e('希望您能尽情享用 带来的乐趣!'); ?></p>
                 </div>
                 <?php endif;?>
             <?php elseif (isset($_GET['start'])): ?>
@@ -387,12 +387,12 @@ Typecho_Cookie::set('__typecho_lang', $lang);
                                         'allowPing' => 1, 'allowFeed' => 1, 'parent' => 0)));
 
                                         $installDb->query($installDb->insert('table.contents')->rows(array('title' => _t('关于'), 'slug' => 'start-page', 'created' => Typecho_Date::time(), 'modified' => Typecho_Date::time(),
-                                        'text' => '<!--markdown-->' . _t('本页面由 Typecho 创建, 这只是个测试页面.'), 'authorId' => 1, 'order' => 0, 'type' => 'page', 'status' => 'publish', 'commentsNum' => 0, 'allowComment' => 1,
+                                        'text' => '<!--markdown-->' . _t('这只是个测试页面.'), 'authorId' => 1, 'order' => 0, 'type' => 'page', 'status' => 'publish', 'commentsNum' => 0, 'allowComment' => 1,
                                         'allowPing' => 1, 'allowFeed' => 1, 'parent' => 0)));
 
                                         /** 初始评论 */
                                         $installDb->query($installDb->insert('table.comments')->rows(array('cid' => 1, 'created' => Typecho_Date::time(), 'author' => 'Typecho', 'ownerId' => 1, 'url' => 'http://seeking.run',
-                                        'ip' => '127.0.0.1', 'agent' => $options->generator, 'text' => '欢迎加入 Typecho 大家族', 'type' => 'comment', 'status' => 'approved', 'parent' => 0)));
+                                        'ip' => '127.0.0.1', 'agent' => $options->generator, 'text' => '欢迎大家', 'type' => 'comment', 'status' => 'approved', 'parent' => 0)));
 
                                         /** 初始用户 */
                                         $password = empty($config['userPassword']) ? substr(uniqid(), 7) : $config['userPassword'];
@@ -649,14 +649,14 @@ Typecho_Db::set(\$db);
                 </form>
             <?php  else: ?>
                 <form method="post" action="?config">
-                <h1 class="typecho-install-title"><?php _e('欢迎使用 Typecho'); ?></h1>
+                <h1 class="typecho-install-title"><?php _e('欢迎使用'); ?></h1>
                 <div class="typecho-install-body">
                 <h2><?php _e('安装说明'); ?></h2>
                 <p><strong><?php _e('本安装程序将自动检测服务器环境是否符合最低配置需求. 如果不符合, 将在上方出现提示信息, 请按照提示信息检查您的主机配置. 如果服务器环境符合要求, 将在下方出现 "开始下一步" 的按钮, 点击此按钮即可一步完成安装.'); ?></strong></p>
                 <h2><?php _e('许可及协议'); ?></h2>
-                <p><?php _e('Typecho 基于 <a href="http://www.gnu.org/copyleft/gpl.html">GPL</a> 协议发布, 我们允许用户在 GPL 协议许可的范围内使用, 拷贝, 修改和分发此程序.'); ?>
+                <p><?php _e('基于 <a href="http://www.gnu.org/copyleft/gpl.html">GPL</a> 协议发布, 我们允许用户在 GPL 协议许可的范围内使用, 拷贝, 修改和分发此程序.'); ?>
                 <?php _e('在GPL许可的范围内，您可以自由地将其用于商业以及非商业用途.'); ?></p>
-                <p><?php _e('Typecho 软件由其社区提供支持, 核心开发团队负责维护程序日常开发工作以及新特性的制定.'); ?>
+                <p><?php _e('软件由其社区提供支持, 核心开发团队负责维护程序日常开发工作以及新特性的制定.'); ?>
                 <?php _e('如果您遇到使用上的问题, 程序中的 BUG, 以及期许的新功能, 欢迎您在社区中交流或者直接向我们贡献代码.'); ?>
                 <?php _e('对于贡献突出者, 他的名字将出现在贡献者名单中.'); ?></p>
                 </div>
