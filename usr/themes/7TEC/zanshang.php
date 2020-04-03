@@ -7,7 +7,6 @@
 		<div class="zs-modal-head">
 			<button type="button" class="close">×</button>
 			<p class="author">
-				<!--将下面的qq改成你自己的-->
           <img src="https://q2.qlogo.cn/headimg_dl?%20bs=279773696@qq.com&dst_uin=279773696@qq.com&dst_uin=279773696@qq.com&;dst_uin=279773696@qq.com&spec=100&url_enc=0&referer=bu_interface&term_type=PC" width="32px" height="32px" style="border-radius: 50%;"><?php $this->author(); ?>
 			</p>
 			<p class="tip"><i></i><span> (๑＞ڡ＜)☆谢谢老板~</span></p>
@@ -22,8 +21,8 @@
 				<button class="btn btn-blink" data-num="any">任意金额</button>
 			</div>
 			<div class="zs-modal-pay">
-<!--				<button class="btn btn-bred" id="pay-text">1元</button>-->
-<!--				<p>使用<span id="pay-type">微信</span>扫描二维码打赏</p>-->
+				<button class="btn btn-bred" id="pay-text">1元</button>
+				<p style="margin-bottom:0px;">使用<span id="pay-type">微信</span>扫描二维码打赏</p>
 				<img width="200" height="200" src="<?php $this->options->themeUrl('img/alipay-1.jpg');///此处图片需要改为自己的二维码 ?>" id="pay-image"/>
 			</div>
 		</div>
