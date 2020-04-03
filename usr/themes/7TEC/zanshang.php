@@ -1,5 +1,5 @@
 <div class="entry-shang text-center">
-		<p>「一键投喂 软糖/蛋糕/布丁/牛奶/冰阔乐！」</p>
+<!--		<p>「一键投喂 软糖/蛋糕/布丁/牛奶/冰阔乐！」</p>-->
 		<button class="zs show-zs btn btn-bred">赞赏</button>
 	</div>
 	<div class="zs-modal-bg"></div>
@@ -14,17 +14,17 @@
 		</div>
 		<div class="zs-modal-body">
 			<div class="zs-modal-btns">
-				<button class="btn btn-blink" data-num="2">2元</button>
-				<button class="btn btn-blink" data-num="5">5元</button>
+				<button class="btn btn-blink" data-num="1">1元</button>
+				<button class="btn btn-blink" data-num="2">5元</button>
 				<button class="btn btn-blink" data-num="10">10元</button>
+				<button class="btn btn-blink" data-num="20">20元</button>
 				<button class="btn btn-blink" data-num="50">50元</button>
-				<button class="btn btn-blink" data-num="100">100元</button>
 				<button class="btn btn-blink" data-num="any">任意金额</button>
 			</div>
 			<div class="zs-modal-pay">
 				<button class="btn btn-bred" id="pay-text">2元</button>
 				<p>使用<span id="pay-type">微信</span>扫描二维码打赏</p>
-				<img width="150" height="150" src="<?php $this->options->themeUrl('img/alipay-2.jpg');///此处图片需要改为自己的二维码 ?>" id="pay-image"/>
+				<img width="200" height="200" src="<?php $this->options->themeUrl('img/alipay-1.jpg');///此处图片需要改为自己的二维码 ?>" id="pay-image"/>
 			</div>
 		</div>
 		<div class="zs-modal-footer">

@@ -15,9 +15,9 @@
             </div>
             <?php $this->need('zanshang.php'); //赞赏功能 ?>
         </div>
-        <div class="tags-box">
-            版权声明：本文为作者原创，如需转载须联系作者本人同意，未经作者本人同意不得擅自转载。本站微信公众号：7TEC，敬请关注！
-        </div>
+<!--        <div class="tags-box">-->
+<!--            版权声明：本文为作者原创，如需转载须联系作者本人同意，未经作者本人同意不得擅自转载。本站微信公众号：seeking.run，敬请关注！-->
+<!--        </div>-->
         <div class="info">
             <ul class="post-meta">
                 <li><i class="fa fa-bookmark-o" aria-hidden="true">&nbsp; </i><?php $this->category(','); ?></li>

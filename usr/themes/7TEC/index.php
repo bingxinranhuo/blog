@@ -1,11 +1,11 @@
 <?php
 /**
- *  7TEC清新风格主题
+ *  seeking.run清新风格主题
  * 
- * @package 7TEC
+ * @package seeking.run
  * @author yuzhiblue
  * @version 2.0
- * @link http://7tec.cn
+ * @link http://seeking.run
  */
 
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
