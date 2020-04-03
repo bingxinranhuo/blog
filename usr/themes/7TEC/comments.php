@@ -1,7 +1,8 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 <div id="comments" class="Card paddingall">
 	<?php $this->comments()->to($comments); ?>
-<div class="comment-ad"><?php $this->options->Commentads(); ?></div>
+<!--广告位-->
+<!--<div class="comment-ad">--><?php //$this->options->Commentads(); ?><!--</div>-->
 	<?php if($this->allow('comment')): ?>
 		<div id="<?php $this->respondId(); ?>" class="respond">
                         <h4><?php _e('添加新评论'); ?></h4>
