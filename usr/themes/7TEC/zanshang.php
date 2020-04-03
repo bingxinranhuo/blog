@@ -8,7 +8,7 @@
 			<button type="button" class="close">×</button>
 			<p class="author">
 				<!--将下面的qq改成你自己的-->
-          <img src="https://q2.qlogo.cn/headimg_dl?%20bs=630110598@qq.com&dst_uin=630110598@qq.com&dst_uin=630110598@qq.com&;dst_uin=630110598@qq.com&spec=100&url_enc=0&referer=bu_interface&term_type=PC" width="32px" height="32px" style="border-radius: 50%;"><?php $this->author(); ?>
+          <img src="https://q2.qlogo.cn/headimg_dl?%20bs=279773696@qq.com&dst_uin=279773696@qq.com&dst_uin=279773696@qq.com&;dst_uin=279773696@qq.com&spec=100&url_enc=0&referer=bu_interface&term_type=PC" width="32px" height="32px" style="border-radius: 50%;"><?php $this->author(); ?>
 			</p>
 			<p class="tip"><i></i><span> (๑＞ڡ＜)☆谢谢老板~</span></p>
 		</div>

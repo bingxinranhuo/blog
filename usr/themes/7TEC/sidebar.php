@@ -4,11 +4,11 @@
     <section class="widget paddingall">
         <h5 class="widget-title"><i class="fa fa-user-o" aria-hidden="true"></i> <?php _e('ABOUT'); ?></h5>
         <div class="side-info-img">
-          <a href="" data-action="imageZoomIn"><img src="https://q2.qlogo.cn/headimg_dl?%20bs=630110598@qq.com&dst_uin=630110598@qq.com&dst_uin=630110598@qq.com&;dst_uin=630110598@qq.com&spec=100&url_enc=0&referer=bu_interface&term_type=PC" width="50px" height="50px" style="border-radius: 50%;"> </a>
+          <a href="" data-action="imageZoomIn"><img src="https://q2.qlogo.cn/headimg_dl?%20bs=279773696@qq.com&dst_uin=279773696@qq.com&dst_uin=279773696@qq.com&;dst_uin=279773696@qq.com&spec=100&url_enc=0&referer=bu_interface&term_type=PC" width="50px" height="50px" style="border-radius: 50%;"> </a>
         </div>
         <div class="side-info-author">
         	<a itemprop="name" href="<?php $this->author->permalink(); ?>" rel="author"><?php $this->author(); ?></a><?php Typecho_Widget::widget('Widget_Stat')->to($stat); ?> <span><?php $stat->publishedPostsNum() ?>篇文章，<?php $stat->publishedCommentsNum() ?>条评论。</span>
-                <p><?php $this->options->description() ?><a class="cute" href="<?php $this->options->siteUrl('/about.html'); ?>">了解更多>> </a></p>
+                <p><?php $this->options->description() ?><a class="cute" href="<?php $this->options->siteUrl('/index.php/start-page.html'); ?>"><br>了解更多>> </a></p>
     	</div>
         <?php if($this->options->Sidebarads): ?>
         <div class="side-ad">
